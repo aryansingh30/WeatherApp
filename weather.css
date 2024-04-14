@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+    
+}
+body{
+    background-color: rgb(48, 48, 48);
+    text-align: center;
+    
+}
+.appname{
+    text-decoration-line: underline;
+    text-decoration-style: dashed;
+
+}
+.card{
+    border-radius: 20px;
+    background: linear-gradient(135deg,skyblue,rgb(173, 79, 156));
+    width: 90%;
+    max-width: 470px;
+    margin: 50px auto 0;
+    padding: 40px 35px;
+    text-align: center;
+}
+.incorrectCity{
+    display: none;
+    text-align: left;
+    margin-top: .6rem;
+    padding-left: 1rem;
+}
+
+.search{
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search input{
+    border:  0;
+    outline: 0;
+    background-color: rgb(217, 224, 231);
+    color: black;
+    border-radius: 30px;
+    height: 60px;
+    width: 80%;
+    padding: 30px;
+    
+}
+.search button{
+    background-color: white;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
+.search img{
+    height: 30px;
+    width: 30px;
+}
+
+.weather{
+    margin: 1rem;
+}
+.weather img{
+    height: 30%;
+    width: 30%;
+}
+.details{
+    display: flex;
+    justify-content: space-between;
+}
+.details .col img{
+    height: 70%;
+    width: 50%;
+}
+
+.col{
+    display: flex;
+    justify-content: space-between;
+    margin: 1.5rem;
+}
+.col div p{
+    font-weight: bold;
+    font-size: 1.3rem;
+}
